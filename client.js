@@ -89,7 +89,7 @@ if (bonusPercentage < 0) {
 
 let bonusDecimal = bonusPercentage/100
 let totalBonus = salaryNumber * bonusDecimal
-console.log(totalBonus);
+// console.log(totalBonus);
 
 let totalCompensation = totalBonus + salaryNumber
 
@@ -100,7 +100,7 @@ let totalCompensation = totalBonus + salaryNumber
     name: employee.name,
     bonusPercentage: bonusPercentage,
     totalCompensation: totalCompensation,
-    totalBonus: 'total bonus - TBD'
+    totalBonus: totalBonus
 
   }
   return result
