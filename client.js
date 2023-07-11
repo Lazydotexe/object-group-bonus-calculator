@@ -100,7 +100,7 @@ let totalCompensation = totalBonus + salaryNumber
     name: employee.name,
     bonusPercentage: bonusPercentage,
     totalCompensation: totalCompensation,
-    totalBonus: totalBonus
+    totalBonus: totalBonus  
 
   }
   return result
@@ -109,7 +109,7 @@ let totalCompensation = totalBonus + salaryNumber
 
 }
 
-
+//The for loop runs the function INSTEAD of the function running the for loop
 // Testing for all employees
 for (let individual of employees) {
   console.log(`${individual.name}`)
