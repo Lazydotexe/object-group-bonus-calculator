@@ -88,7 +88,7 @@ if (bonusPercentage < 0) {
 
 
 let bonusDecimal = bonusPercentage/100
-let totalBonus = salaryNumber * bonusDecimal
+let totalBonus = Math.floor(salaryNumber * bonusDecimal)
 // console.log(totalBonus);
 
 let totalCompensation = totalBonus + salaryNumber
